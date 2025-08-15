@@ -903,7 +903,7 @@
 
 /*** Tour Booking Start ***/
 .booking {
-    background: linear-gradient(#a1394180, #a1394145),
+    background: linear-gradient(#3e39a180, #4f39a145),
         url(../img/tour-booking-bg.jpg);
     background-position: center center;
     background-repeat: no-repeat;
@@ -1110,8 +1110,15 @@
     transform: translate(-50%, -50%);
     border: 3px solid var(--bs-primary);
     border-style: dotted;
-    border-radius: 50%;
 }
+
+.testimonial .testimonial-carousel .testimonial-item .testimonial-img img{
+    border-radius: 0px !important;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
 
 .testimonial .testimonial-carousel .owl-dots {
     margin-top: 30px;
